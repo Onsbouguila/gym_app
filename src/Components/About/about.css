@@ -1,0 +1,66 @@
+.cover-about {
+    object-fit: cover;
+    width: 100%;
+    max-height: 80vh;
+}
+.cover-container {
+    position: relative;
+}
+.cover-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.cover-title1 {
+    font-size: 2vw;
+}
+.cover-title2 {
+    font-size:5vw
+}
+.horizontal-ligne-about {
+    border-bottom: 5px solid #00FFF0;
+    width: 100%;
+}
+.about-lignes-pic{
+    position: absolute;
+    top:155%;
+    left:-100%;
+}
+.horizontal-ligne-about2 {
+    border-bottom: 5px solid #00FFF0 ;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.img-about {
+    margin-left: -20%;
+}
+
+.card-content-text-absolute {
+    position: absolute;
+    top:20%;
+    left: 20%;
+}
+.btn-about {
+    border-radius: 20px;
+    background-color: #00B7AC;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+.row3-text-about {
+    -webkit-text-stroke: 0.7px rgb(255, 255, 255);
+    color: rgb(
+        0,
+        0,
+        0
+      ) !important; 
+    font-size: 4vw;
+    font-weight: 700;
+}
+.horizontal-ligne-about3 {
+    border-bottom: 5px solid #00FFF0 ;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: -20px;
+}

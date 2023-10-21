@@ -1,0 +1,46 @@
+.body {
+  background-color: black;
+}
+
+.headerItem {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.footerItem {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+.selected {
+  color: #00fff0;
+  text-decoration: underline;
+}
+.footer-item {
+  color: #00fff0;
+  font-weight: 500;
+}
+.input-contact {
+  border-radius: 20px;
+  padding-left: 20px;
+  background-color: rgba(240, 255, 255, 0.262);
+  color: white;
+  border: none;
+  padding: 10px;
+}
+.input-contact::placeholder {
+  color: white;
+}
+.text-container {
+    border-left: 5px solid white; /* Bordure gauche */
+    padding-left: 10px; /* Ajustez cet espacement si nécessaire */
+    margin-left: 10px; /* Ajustez cet espacement si nécessaire */
+  }
+  
+  .text-container > * {
+    margin-left: 20px; /* Espacement entre les éléments de texte */
+  }
+
+  
